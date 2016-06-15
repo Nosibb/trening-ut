@@ -74,16 +74,6 @@ public class JednostkoweTest {
         assertEquals(expResult, result);
         
     }
-    @Test
-    public void testAdd3() {
-        System.out.println("add");
-        String s1 = "asd";
-        String s2 = "3";
-        Jednostkowe instance = new Jednostkowe();
-        int expResult = 0;
-        int result = instance.add(s1, s2);
-        assertEquals(expResult, result);
-        
-    }
+    
     
 }
